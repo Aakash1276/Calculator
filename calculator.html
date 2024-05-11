@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <link rel="stylesheet" href="calcu.css">
+    <style>
+    </style>
+    <title>Simple Calculator</title>
+</head>
+<!-- body -->
+<body>
+  <h1><marquee scrollamount="8">Simple Calculator</marquee></h1>
+    <div id="cal">
+        <input type="text" id="view" placeholder="0">
+        <div class="All_Button">
+            <button class="button4" onclick="viewscreen = viewscreen.slice(0, -1); document.querySelector('#view').value = viewscreen;"><b>Del</b></button>
+            <button class="button4"><b>His</b></button><br>
+            <button onclick="viewscreen=viewscreen +'7'; document.querySelector('#view').value= viewscreen;"><b>7</b></button>
+            <button onclick="viewscreen=viewscreen +'8'; document.querySelector('#view').value= viewscreen;"><b>8</b></button>
+            <button onclick="viewscreen=viewscreen +'9'; document.querySelector('#view').value= viewscreen;"><b>9</b></button>
+            <button class="button3" onclick="viewscreen=viewscreen +'('; document.querySelector('#view').value= viewscreen;"><b>(</b></button>
+            <button class="button3" onclick="viewscreen=viewscreen +')'; document.querySelector('#view').value= viewscreen;"><b>)</b></button>
+            <button onclick="viewscreen=viewscreen +'4'; document.querySelector('#view').value= viewscreen;"><b>4</b></button>
+            <button onclick="viewscreen=viewscreen +'5'; document.querySelector('#view').value= viewscreen;"><b>5</b></button>
+            <button onclick="viewscreen=viewscreen +'6'; document.querySelector('#view').value= viewscreen;"><b>6</b></button>
+            <button class="button3" onclick="viewscreen=viewscreen +'*'; document.querySelector('#view').value= viewscreen;"><b>x</b></button>
+            <button class="button3" onclick="viewscreen=viewscreen +'/'; document.querySelector('#view').value= viewscreen;"><b>÷</b></button>
+            <button onclick="viewscreen=viewscreen +'1'; document.querySelector('#view').value= viewscreen;"><b>1</b></button>
+            <button onclick="viewscreen=viewscreen +'2'; document.querySelector('#view').value= viewscreen;"><b>2</b></button>
+            <button onclick="viewscreen=viewscreen +'3'; document.querySelector('#view').value= viewscreen;"><b>3</b></button>
+            <button class="button3" onclick="viewscreen=viewscreen +'-'; document.querySelector('#view').value= viewscreen;"><b>-</b></button>
+            <button class="button2"onclick="viewscreen=''; document.querySelector('#view').value=viewscreen;"><b>C</b></button>
+            <button onclick="viewscreen=viewscreen +'0'; document.querySelector('#view').value= viewscreen;"><b>0</b></button>
+            <button class="button3" onclick="viewscreen=viewscreen +'.'; document.querySelector('#view').value= viewscreen;"><b>.</b></button>
+            <button class="button3" onclick="viewscreen=viewscreen +'+'; document.querySelector('#view').value= viewscreen;"><b>+</b></button>
+            <button class="button1" onclick="let result =eval(viewscreen);viewscreen=result;document.querySelector('#view').value= viewscreen;"><b>=</b></button>
+        </div>
+    </div>
+</body>
+<!-- footer Part -->
+<footer id="ending">All Rights Reserve &copy; MADE BY AKASH YADAV
+    </footer>
+    <!-- Js script code -->
+<script>
+    let viewscreen='';
+    document.querySelector('#view').value = viewscreen;
+</script>
+</html>

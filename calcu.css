@@ -1,0 +1,93 @@
+body{
+   background-color: navy;
+    overflow: hidden;
+}
+
+#cal {
+    margin-top: 0%;
+    margin-left: 452px;
+    border: 2px solid;
+    background-color: black;
+    width: 200px;
+    text-align: center;
+    border-width: 8px;
+    height: 487px;
+    width: 400px;
+    border-radius: 40px;
+    color: #1a4df8;
+}
+h1{
+    width: 33%;
+    margin-top: 16px;
+    background-color: yellow;
+    margin-left: 442px;
+    text-align: center;
+}
+#view{
+    margin: 20px;
+    width: 352px;
+    font-size: xx-large;
+    height: 79px;
+    text-align: right;
+    padding: 5px;
+    border-radius: 10px;
+}
+.All_button{
+    display: flex;
+    justify-content: center;
+    margin: 6px;  
+    margin-left: 22px;
+    margin-top: 3px;
+    border-radius: 3px;
+    
+}
+button:hover{
+    background-color: rgb(238, 252, 109);
+    cursor: pointer;
+}
+button{
+ width: 60px;
+height: 60px;
+background-color: rgb(228, 223, 223);
+font-size: x-large;
+border-radius: 2px;
+color: #1a4df8;
+margin: 4px;
+}
+.button1{
+    height: 60px;
+    font-size: x-large;
+    border-radius: 2px;
+    color: #fff;
+    width: 134px;
+    margin-left: 5px;
+    background-color: rgb(49, 91, 230);
+}
+.button2{
+    background-color: rgb(236, 73, 73);
+    color: #fff;
+    border-radius: 2px;
+    
+}
+.button3{
+    background-color: #948d8d;
+    color: #fff;
+    border-radius: 2px;
+}
+.button4{
+    width: 166px;
+    color: #fff;
+    background-color: #e23d67;
+}
+.button4:hover{
+color: black;
+}
+#ending{
+    background-color: rgb(44, 27, 236);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 432px;
+    margin-top: 1%;
+    margin-left: 33%;
+}
